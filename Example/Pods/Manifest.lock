@@ -1,0 +1,16 @@
+PODS:
+  - qdmtwokit (0.1.0)
+
+DEPENDENCIES:
+  - qdmtwokit (from `../`)
+
+EXTERNAL SOURCES:
+  qdmtwokit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  qdmtwokit: c6d5a9344708c21ad1c80fc31a1b46b0fffb0e7b
+
+PODFILE CHECKSUM: b0cce6d1cadda5b1ac13fb677e5f5bb737299929
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module qdmtwokit {
+  umbrella header "qdmtwokit-umbrella.h"
+
+  export *
+  module * { export * }
+}
