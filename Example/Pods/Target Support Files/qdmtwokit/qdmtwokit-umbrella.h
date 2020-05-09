@@ -11,6 +11,9 @@
 #endif
 
 #import "UIImage+FLExtension.h"
+#import "CTMediator+QDExtension.h"
+#import "QDSubViewController.h"
+#import "Target_QDSubViewController.h"
 
 FOUNDATION_EXPORT double qdmtwokitVersionNumber;
 FOUNDATION_EXPORT const unsigned char qdmtwokitVersionString[];

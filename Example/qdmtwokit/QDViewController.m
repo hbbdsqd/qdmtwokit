@@ -7,7 +7,8 @@
 //
 
 #import "QDViewController.h"
-
+#import <CTMediator/CTMediator.h>
+#import "CTMediator+QDExtension.h"
 @interface QDViewController ()
 
 @end
@@ -17,7 +18,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    UIViewController * vc = [[CTMediator sharedInstance] qdSubVCWithName:@"hbbdsqd" color:[UIColor purpleColor]];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

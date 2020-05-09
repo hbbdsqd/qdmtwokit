@@ -1,16 +1,23 @@
 PODS:
-  - qdmtwokit (0.1.0)
+  - CTMediator (32)
+  - qdmtwokit (3):
+    - CTMediator
 
 DEPENDENCIES:
   - qdmtwokit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
 
 EXTERNAL SOURCES:
   qdmtwokit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  qdmtwokit: c6d5a9344708c21ad1c80fc31a1b46b0fffb0e7b
+  CTMediator: 10f2c387be0ab2061b75b88c86f9903eedba1ce8
+  qdmtwokit: 9ea8ffd0b2d54f6528cdac0ab1f7b4654d3d1bef
 
-PODFILE CHECKSUM: b0cce6d1cadda5b1ac13fb677e5f5bb737299929
+PODFILE CHECKSUM: 7e275df4888b2dad556e9eec8ebf687e67e12af9
 
 COCOAPODS: 1.8.4

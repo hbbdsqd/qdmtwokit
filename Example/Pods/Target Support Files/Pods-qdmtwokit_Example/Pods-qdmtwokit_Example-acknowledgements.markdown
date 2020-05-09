@@ -1,6 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## CTMediator
+
+MIT
+
+
 ## qdmtwokit
 
 Copyright (c) 2020 hbbdsqd@163.com <hbbdsqd@163.com>

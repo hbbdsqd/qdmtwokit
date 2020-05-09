@@ -1,9 +1,9 @@
 {
   "name": "qdmtwokit",
-  "version": "0.1.0",
+  "version": "3",
   "summary": "A short description of qdmtwokit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/hbbdsqd@163.com/qdmtwokit",
+  "homepage": "https://github.com/hbbdsqd/qdmtwokit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "hbbdsqd@163.com": "hbbdsqd@163.com"
   },
   "source": {
-    "git": "https://github.com/hbbdsqd@163.com/qdmtwokit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/hbbdsqd/qdmtwokit.git",
+    "tag": "3"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "qdmtwokit/Classes/**/*"
+  "source_files": "qdmtwokit/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
 }
